@@ -47,14 +47,13 @@
 
 // PASSO 1: Crie uma função `createMenu()` que, dado um objeto passado por parâmetro, retorna um objeto com o seguinte formato: { fetchMenu: () => objetoPassadoPorParametro }.
 //
-// Agora faça o TESTE 4 no arquivo `tests/restaurant.spec.js`.
 
+// Agora faça o TESTE 4 no arquivo `tests/restaurant.spec.js`.
 //------------------------------------------------------------------------------------------
 
 // PASSO 2: Adicione ao objeto retornado por `createMenu` uma chave `consumption` que, como valor inicial, tem um array vazio.
 //
 // Agora faça o TESTE 5 no arquivo `tests/restaurant.spec.js`.
-
 //------------------------------------------------------------------------------------------
 
 // PASSO 3: Crie uma função, separada da função `createMenu()`, que, dada uma string recebida por parâmetro, 
@@ -74,11 +73,42 @@
 // Agora faça o TESTE 6 no arquivo `tests/restaurant.spec.js`.
 
 //------------------------------------------------------------------------------------------
-
 // PASSO 4: Adicione ao objeto retornado por `createMenu()` uma chave `pay` com uma função que varre todo os itens de `objetoRetornado.consumption`, 
 // soma o preço de todos checando-os no menu e retorna o valor somado acrescido de 10%. DICA: para isso, 
 // você precisará varrer tanto o objeto da chave `food` quanto o objeto da chave `drink`.
 
-const createMenu = () => {};
+const restaurant = {
+  consumption: [],
+};
+
+const orderFromMenu = (request) => {
+  restaurant.consumption.push(request);
+};
+
+const sumOfAllItems = (myMenu) => {
+  let total = 0;
+  const orders = restaurant.consumption;
+  for (let order of orders) {
+    if (Object.keys(myMenu.food).includes(order)) {
+      total += myMenu.food[order];
+    } else if (Object.keys(myMenu.drinks).includes(order)) {
+      total += myMenu.drinks[order];
+    }
+  }
+  return total;
+};
+
+const menu = {
+  food: { coxinha: 3.90, sanduiche: 9.90 },
+  drinks: { agua: 3.90, cerveja: 6.90 },
+};
+
+const createMenu = (myMenu) => {
+  const returnObj = restaurant;
+  returnObj.fetchMenu = () => myMenu;
+  returnObj.order = orderFromMenu;
+  returnObj.pay = () => sumOfAllItems(myMenu);
+  return returnObj;
+};
 
 module.exports = createMenu;
