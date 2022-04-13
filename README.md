@@ -1,7 +1,15 @@
 ## Projeto Js Unit Tests
 
-Sexto projeto do módulo de Fundamentos do curso de desenvolvimento web da Trybe. \
+> Sexto projeto do módulo de Fundamentos do curso de desenvolvimento web da Trybe.
+
+**Contexto**
+
 No bloco deste projeto somos introduzidos ao conceito de testes automatizados e sua importância na criação de códigos de qualidade.
+
+**Objetivo do projeto**
+
+Implementar várias funções para atender aos requisitos propostos e/ou testes unitários para garantir que as implementações das funções 
+estejam corretas.
 
 
 **Principais habilidades desenvolvidas nesse trabalho:**
@@ -9,6 +17,10 @@ No bloco deste projeto somos introduzidos ao conceito de testes automatizados e 
 - Escrever testes unitários para funções utilizando o módulo Assert do NodeJS para verificar o correto funcionamento dessas funções;
 - A partir de testes já implementados, escrever funções de forma que elas atendam aos testes propostos;
 - Escrever testes e funções utilizando uma abordagem de desenvolvimento orientado a testes.
+
+**Tecnologias utilizadas**
+- <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" title="JavaScript" align="center" height="30"/>  - JavaScript</a>
+- <a href="https://nodejs.org"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" title="Node.js" height="30"/> - Node.js</a>
 
 ---
 
