@@ -11,7 +11,6 @@ No bloco deste projeto somos introduzidos ao conceito de testes automatizados e 
 Implementar várias funções para atender aos requisitos propostos e/ou testes unitários para garantir que as implementações das funções 
 estejam corretas.
 
-
 **Principais habilidades desenvolvidas nesse trabalho:**
 
 - Escrever testes unitários para funções utilizando o módulo Assert do NodeJS para verificar o correto funcionamento dessas funções;
@@ -20,7 +19,7 @@ estejam corretas.
 
 **Tecnologias utilizadas**
 - <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" title="JavaScript" align="center" height="30"/>  - JavaScript</a>
-- <a href="https://nodejs.org"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" title="Node.js" height="30"/> - Node.js</a>
+- <a href="https://nodejs.org"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" title="Node.js" height="30" align="center"/> - Node.js</a>
 
 ---
 
