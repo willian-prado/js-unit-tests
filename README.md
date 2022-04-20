@@ -1,17 +1,17 @@
 ## Projeto Js Unit Tests
 
-> Sexto projeto do módulo de Fundamentos do curso de desenvolvimento web da Trybe.
+> Sexto projeto do módulo de Fundamentos do curso de desenvolvimento web da [Trybe](https://www.betrybe.com/)
 
 **Contexto**
 
-No bloco deste projeto somos introduzidos ao conceito de testes automatizados e sua importância na criação de códigos de qualidade.
+No bloco deste projeto somos introduzidos ao conceito de testes automatizados e entendemos sua importância para a criação de códigos de qualidade.
 
 **Objetivo do projeto**
 
 Implementar várias funções para atender aos requisitos propostos e/ou testes unitários para garantir que as implementações das funções 
 estejam corretas.
 
-**Principais habilidades desenvolvidas nesse trabalho:**
+**Principais habilidades desenvolvidas nesse trabalho**
 
 - Escrever testes unitários para funções utilizando o módulo Assert do NodeJS para verificar o correto funcionamento dessas funções;
 - A partir de testes já implementados, escrever funções de forma que elas atendam aos testes propostos;
@@ -121,3 +121,7 @@ A estrutura deste código e deste objeto já foi definida e você irá implement
   10. No arquivo `tests/restaurant.spec.js`, escreva um teste que verifica se a função `order` aceita que pedidos repetidos sejam acrescidos a consumption.
   11. No arquivo `tests/restaurant.spec.js`, escreva um teste que verifica que, ao chamar `objetoRetornado.pay()`, retorna-se a soma dos preços de tudo que foi pedido, conforme registrado em `objetoRetornado.consumption`.
   12. No arquivo `src/restaurant.js`, adicione ao objeto retornado por `createMenu()` uma chave `pay` com uma função que varre todo os itens de `objetoRetornado.consumption`, soma o preço de todos checando-os no menu e retorna o valor somado acrescido de 10%. DICA: para isso, você precisará varrer tanto o objeto da chave `food` quanto o objeto da chave `drink`.
+
+---
+
+[Ir para a lista de projetos](https://github.com/willian-prado/trybe-records)
